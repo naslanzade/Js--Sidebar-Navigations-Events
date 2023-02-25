@@ -1,0 +1,40 @@
+.sidebar {
+    height: 350px;
+    width: 100vw;
+    background: linear-gradient(#E8CBC0, #636FA4);
+    position: relative;
+    transition: all 0.5s;
+
+    i {
+        font-size: 30px;
+        color: white;
+        position: absolute;
+        top: 300px;
+        left: 10px;
+        cursor: pointer;
+    }
+
+
+    ul {
+        padding-top: 50px;
+        width: 200px;
+        margin-left: 60px;
+        cursor: pointer;             
+
+        li {
+            list-style: none;
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-size: 30px;
+                font-family: cursive;
+            }
+        }
+
+    }
+}
+
+.hide {
+    transform: translateY(-300px);
+}

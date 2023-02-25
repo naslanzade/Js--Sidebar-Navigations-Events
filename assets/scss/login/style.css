@@ -1,0 +1,10 @@
+.login input {
+  outline: none;
+  height: 35px;
+}
+.login button {
+  width: 100px;
+  height: 35px;
+  margin-bottom: 5px;
+  border: none;
+}/*# sourceMappingURL=style.css.map */
